@@ -1,0 +1,22 @@
+{
+  "name": "diplomacy-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajevann/diplomacy-board.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajevann/diplomacy-board/issues"
+  },
+  "homepage": "https://github.com/ajevann/diplomacy-board#readme",
+  "devDependencies": {
+    "express": "^4.16.4"
+  }
+}

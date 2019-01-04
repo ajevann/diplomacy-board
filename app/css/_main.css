@@ -1,0 +1,81 @@
+body {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+
+  width: 100%;
+  height: 100%;
+
+  margin: 5px;
+
+  box-shadow: none;
+  user-select: none;
+}
+
+/*.l {fill:#fefee9; stroke:none; stroke-linejoin:round}
+.w {fill:#c6ecff; stroke:none; stroke-linejoin:round}
+.s {fill:#DDDDDD; stroke:none; stroke-linejoin:round}*/
+
+.l {fill:#FEFEE9; stroke:#000000; stroke-linejoin:round}
+.w {fill:#C6ECFF; stroke:#000000; stroke-linejoin:round}
+.s {fill:#DDDDDD; stroke:#000000; stroke-linejoin:round}
+
+text.name {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:5px;
+  text-transform: uppercase;
+}
+
+text.menuItem {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:17px;
+  text-transform: uppercase;
+}
+
+text.coast {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:4px;
+  text-transform: uppercase;
+}
+
+line[type="adjacencies"] {
+  pointer-events: none;
+  stroke: grey;
+}
+
+line[type="movement"] {
+  pointer-events: none;
+  stroke: black;
+}
+
+g[type="t"]:hover{
+  opacity: .5;
+}
+
+[type="hexgrid"]    {stroke: #000; fill: none; stroke-width: 0.1; }
+
+[country="Neutral"]	{fill:none; stroke:black; stroke-linejoin:round}
+
+[country="Austria"]	{fill:#FF0000; stroke:black}
+[country="England"]	{fill:#0000FF; stroke:black}
+[country="France"] 	{fill:#00FFFF; stroke:black}
+[country="Germany"]	{fill:#808080; stroke:black}
+[country="Italy"]  	{fill:#00FF00; stroke:black}
+[country="Russia"] 	{fill:#008000; stroke:black}
+[country="Turkey"] 	{fill:#FFFF00; stroke:black}
+[country="Neutral"] {fill:#FFFFFF; stroke:black}
+
+/*line[type="movement"][country="Austria"]	{fill:#FF0000; stroke:black}*/
+/*line[type="movement"][country="England"]	{fill:#0000FF; stroke:black}*/
+/*line[type="movement"][country="France"] 	{fill:#00FFFF; stroke:black}*/
+/*line[type="movement"][country="Germany"]	{fill:#808080; stroke:black}*/
+/*line[type="movement"][country="Italy"]  	{fill:#00FF00; stroke:black}*/
+/*line[type="movement"][country="Russia"] 	{fill:#008000; stroke:black}*/
+
+map {
+  position: relative;
+/*
+  height: 1000px;
+
+  max-height: 1000px;
+  min-height: 1000px;*/
+}

@@ -1,0 +1,3 @@
+Variant SVG coding 2006 by Martin Asal
+Copyright: CC-BY-SA-3.0-DE  (http://creativecommons.org/licenses/by-sa/3.0/deed.de)
+Created for Diplomap (http://www.games2relax.net/diplomap/)
